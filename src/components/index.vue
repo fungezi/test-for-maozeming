@@ -32,12 +32,12 @@
         <div class="card">
           <img src="../assets/logo-icon.png">
         </div>
-        <div class="card">
+        <!-- <div class="card">
           <img src="../assets/logo-icon.png">
         </div>
         <div class="card">
           <img src="../assets/logo-icon.png">
-        </div>
+        </div> -->
       </div>
       <div class="footer">
         <div class="text fts20">第一行中文第一行中文第一行中文第一行中文第一行中文第一行中文</div>
@@ -52,7 +52,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Index',
   props: {
     msg: String
   },
@@ -111,7 +111,7 @@ export default {
   }
   .content-card {
     width: 100%;
-    height: 265px;
+    /* height: 265px; */
     /* background-color: cornflowerblue; */
     display: flex;
     flex-wrap: wrap;
@@ -119,9 +119,10 @@ export default {
     align-content: space-between;
   }
   .content-card .card {
-    width: 185px;
-    height: 128px;
+    width: 250px;
+    /* height: 128px; */
     background-color: red;
+    margin-bottom: 10px;
   }
   .content-card .card img {
     display: block;
